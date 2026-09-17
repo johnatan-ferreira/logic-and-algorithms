@@ -5,7 +5,7 @@ cmake-build-*/
 # Configurações específicas da IDE CLion
 .idea/
 
-# Ignorar o main.cpp e o CMakeLists.txt da raiz
+# Ignorar o main.cpp da raiz
 main.cpp
 
 # Binários e executáveis compilados (caso apareçam na raiz)
@@ -19,4 +19,5 @@ main.cpp
 !*.*
 !/*/*.*
 
+# Ignorar o CMakeLists
 CMakeLists.txt
