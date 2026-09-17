@@ -16,4 +16,6 @@ CMakeLists.txt
 
 # Ignora arquivos sem extensão
 *
-*.*
+!/*/
+!*.*
+!/*/*.*
