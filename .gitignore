@@ -7,7 +7,6 @@ cmake-build-*/
 
 # Ignorar o main.cpp e o CMakeLists.txt da raiz
 main.cpp
-CMakeLists.txt
 
 # Binários e executáveis compilados (caso apareçam na raiz)
 *.exe
@@ -19,3 +18,5 @@ CMakeLists.txt
 !/*/
 !*.*
 !/*/*.*
+
+CMakeLists.txt
