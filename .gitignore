@@ -1,23 +1,10 @@
-# Ignora arquivos sem extensão
 *
 !/*/
 !*.*
-!/*/*.*
 
-# Pastas de build geradas pelo CMake / CLion
-cmake-build-*/
-.cmake/
-
-# Configurações específicas da IDE CLion
 .idea/
+.cmake/
+cmake-build-*/
 
-# Ignorar o main.cpp da raiz
-main.cpp
-
-# Binários e executáveis compilados (caso apareçam na raiz)
-*.exe
-*.out
-*.o
-
-# Ignorar o CMakeLists
-CMakeLists.txt
+/CMakeLists.txt
+/main.cpp
