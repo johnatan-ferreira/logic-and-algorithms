@@ -6,7 +6,7 @@
 .cmake/
 cmake-build-*/
 
-*.sqlite
+9 - SQL/*.sqlite
 
 /CMakeLists.txt
 /main.cpp
